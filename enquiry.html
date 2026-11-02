@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>order Benoni | Golden Crust Bakery</title>
+<meta name="description" content="Golden Crust Bakery in Riverdale: handcrafted sourdough, pastries and custom celebration cakes.Order online or visit one of our two branches."><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="author" content="Sibusiso Khoza">
+<link rel="canonical" href="https://YOUR-SITE-ADDRESS/index.html">
+    
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">Golden Crust Bakery</a>
+<nav aria-label="Main"><ul class="nav"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<main>
+<section class="section reveal">
+<h1>Custom and bulk order enquiry</h1>
+<p>Tell us what you need and we will reply within two working days.</p>
+<form id="enquiry-form" class="form" novalidate>
+<label for="name">Full name</label>
+<input type="text" id="name" name="name" required>
+    <span class="error" id="name-error"></span>
+    
+<label for="email">Email address</label>
+ <input type="email" id="email" name="email" required>
+    <span class="error" id="email-error"></span>
+    
+<label for="phone">Phone number</label>
+<input type="tel" id="phone" name="phone" required>
+    <span class="error" id="phone-error"></span>
+    
+<label for="type">Order type</label>
+<select id="type" name="type" required><option value="">Choose one</option><option>Custom cake</option><option>Bulk bread order</option><option>Event catering</option></select>
+    <span class="error" id="type-error"></span>
+    
+<label for="date">Date needed</label>
+<input id="date" name="date" type="date" required>
+    <span class="error" id="date-error"></span>
+    
+<label for="details">Details</label>
+<textarea id="details" name="details" rows="5" required minlength="10"></textarea>
+    <span class="error" id="details-error"></span>
+    
+    <label for="quantity">Number of items</label>
+    <input type="number" id="quantity" name="quantity" min="1" required>
+    <span class="error" id="quantity-error"></span>
+    
+<button id="send-btn" type="submit">Submit</button>
+</form>
+    
+    <div id="enquiry-response" aria-live="polite"></div>
+</section>
+</main>
+<footer class="site-footer">
+<p>&copy; 2026 Golden Crust Bakery, Benoni,GP. Baking since 2013.</p>
+<p><a href="enquiry.html">Order a custom cake</a></p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
