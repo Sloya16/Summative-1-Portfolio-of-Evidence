@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sloya16.github.io/Summative-1-Portfolio-of-Evidence/sitemap.xml
